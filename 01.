@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+  int a, b, c;  
+  printf("digite o tempo do evento em segundos");
+  scanf("%d",&a);
+  b = a/60;
+  c = b/60;
+  printf("%d horas, %d minutos e %d segundos",c,b,a);
+    return 0;
