@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+ int main() {
+ int a, b, aux, i;
+
+printf("15 Primeiros termos da série de Fibonacci\n\n");
+
+    a = 0;
+    b = 1;
+
+    for(i = 0; i < 15; i++)
+    {
+        aux = a + b;
+        a = b;
+        b = aux;
+
+        printf("%d\n", aux);
+    }
+        return 0;
+    }
