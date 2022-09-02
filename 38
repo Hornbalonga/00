@@ -1,0 +1,19 @@
+#include<stdio.h>
+
+int main(){
+  
+int altura_chico = 150; 
+int altura_ze = 110;
+int total_anos = 0;
+
+while(altura_chico >= altura_ze)
+{
+  altura_chico = altura_chico + 2;
+  altura_ze = altura_ze + 3;
+  total_anos = total_anos  + 1;
+}
+
+printf("Em %d anos, Zé será mais alto que Chico.", total_anos);
+
+ return 0;
+}
