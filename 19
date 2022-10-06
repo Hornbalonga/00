@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+int cont,perfect;
+  
+for(cont = 1; cont <=100; cont++);
+  perfect = cont*cont;
+  if(perfect == cont ){
+    printf("%d\n",perfect);
+   
+    }
+  return 0;
+} 
+//nao termiado
